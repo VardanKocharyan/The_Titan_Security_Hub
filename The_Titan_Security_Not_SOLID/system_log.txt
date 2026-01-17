@@ -1,0 +1,6 @@
+Wed Jan 14 16:35:54 2026
+ - ALARM: High sent to Police
+Wed Jan 14 16:35:54 2026
+ - ALARM: High sent to Police
+Wed Jan 14 16:35:54 2026
+ - ALARM: Critical sent to FireDept
