@@ -12,5 +12,5 @@ class HeatSensor final : public Sensor, public ITemperature {
         //getter
         virtual int getTemperature() const override{ return temperatur; }
         //setter
-        void setTemperatur(int t) { temperatur = t; }
+        void setTemperature(int t) { temperatur = t; }
 };

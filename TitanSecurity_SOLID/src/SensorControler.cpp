@@ -22,4 +22,8 @@ void SensorControler::poll(const std::vector<Sensor*>& sensors, const SystemMode
             if (heat->getTemperature() > 50) {
                 alarm.trigger();
                 notifier.notyfy(Type::Fire);
-                logger.log("Fire detected")>g>getTemperature())}
+                logger.log("Fire detected");
+            }
+        }
+    }
+}
