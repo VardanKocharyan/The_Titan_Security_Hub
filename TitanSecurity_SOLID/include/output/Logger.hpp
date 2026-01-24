@@ -1,9 +1,14 @@
 #pragma once
 #include "output/ILogger.hpp"
+#include <fstream>
 
 class Logger : public ILogger {
-    public:
-        virtual void log(const std::string& msg) override {
-            std::cout << msg << std::endl;
-        }
+    std::ofstream file;
+
+public:
+    explicit Logger(const std::string& filename);
+    ~Logger();
+
+    void log(const std::string& msg) override;
 };
+

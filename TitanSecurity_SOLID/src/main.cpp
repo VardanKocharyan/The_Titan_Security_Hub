@@ -27,7 +27,7 @@ int main(void) {
 
         /* 2️⃣ Create outputs */
         Alarm alarm;
-        Logger logger;
+        Logger logger("system_log.txt");
         Notifier notifier;
 
         /* 3️⃣ System mode */
